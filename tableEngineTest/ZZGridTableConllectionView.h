@@ -16,4 +16,7 @@
 
 @interface ZZGridTableConllectionView : UICollectionView
 
+@property (nonatomic, strong) NSMutableArray    *tableHeaderArr;
+@property (nonatomic, strong) NSMutableArray    *valuesArr;
+
 @end
