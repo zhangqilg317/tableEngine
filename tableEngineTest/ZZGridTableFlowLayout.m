@@ -12,7 +12,7 @@
 
 - (CGSize)collectionViewContentSize
 {
-    return CGSizeMake(self.collectionView.frame.size.width, 3*(self.collectionView.frame.size.height));
+    return CGSizeMake(1260, 600);
 }
 
 @end

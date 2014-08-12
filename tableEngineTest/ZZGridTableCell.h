@@ -11,13 +11,19 @@
 
 @protocol ZZGridTableCellDelegate <NSObject>
 
-
+@optional
+- (void)theCellTextField:(UITextField *)tf;
+- (void)theCellTextFieldEndEditing:(UITextField *)tf;
 
 @end
 
-@interface ZZGridTableCell : UICollectionViewCell
+@interface ZZGridTableCell : UICollectionViewCell<UITextFieldDelegate>
 
 @property (nonatomic, strong) UITextField   *valueTF;
+@property (nonatomic, strong) UILabel       *headerLbl;
+@property (nonatomic, assign)id<ZZGridTableCellDelegate> delegate;
+
+- (void)initTextField;
 
 - (void)setTextFieldBackgroundColor:(UIColor *)color;
 

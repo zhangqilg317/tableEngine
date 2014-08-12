@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GridTableTestViewController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +15,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    GridTableTestViewController  *gridTableView = [[GridTableTestViewController alloc] init];
+    
+    UINavigationController  *nav = [[UINavigationController  alloc] initWithRootViewController:gridTableView];
+    
+    self.window.rootViewController = nav;
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZZGridTableCell.h"
 
-@interface GridTableTestViewController : UIViewController
+
+@interface GridTableTestViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,ZZGridTableCellDelegate>
+
+@property (nonatomic, strong) UICollectionView      *gridTableCollectionView;
 
 @end

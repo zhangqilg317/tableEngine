@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D5EC8C91994C3C100AF9947 /* ZZGridTableFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EC8C81994C3C100AF9947 /* ZZGridTableFlowLayout.m */; };
 		3D5EC8CC1994C4F100AF9947 /* ZZGridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EC8CB1994C4F100AF9947 /* ZZGridTableCell.m */; };
-		3D5EC8CF1994CBAB00AF9947 /* ZZGridTableConllectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EC8CE1994CBAB00AF9947 /* ZZGridTableConllectionView.m */; };
 		3D5EC8D31994D83E00AF9947 /* GridTableTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EC8D21994D83E00AF9947 /* GridTableTestViewController.m */; };
 		3D63952D199088860059E33B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D63952C199088860059E33B /* Foundation.framework */; };
 		3D63952F199088860059E33B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D63952E199088860059E33B /* CoreGraphics.framework */; };
@@ -40,8 +39,6 @@
 		3D5EC8C81994C3C100AF9947 /* ZZGridTableFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGridTableFlowLayout.m; sourceTree = "<group>"; };
 		3D5EC8CA1994C4F100AF9947 /* ZZGridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGridTableCell.h; sourceTree = "<group>"; };
 		3D5EC8CB1994C4F100AF9947 /* ZZGridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGridTableCell.m; sourceTree = "<group>"; };
-		3D5EC8CD1994CBAB00AF9947 /* ZZGridTableConllectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGridTableConllectionView.h; sourceTree = "<group>"; };
-		3D5EC8CE1994CBAB00AF9947 /* ZZGridTableConllectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGridTableConllectionView.m; sourceTree = "<group>"; };
 		3D5EC8D01994CE0D00AF9947 /* ZZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZConstants.h; sourceTree = "<group>"; };
 		3D5EC8D11994D83E00AF9947 /* GridTableTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableTestViewController.h; sourceTree = "<group>"; };
 		3D5EC8D21994D83E00AF9947 /* GridTableTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableTestViewController.m; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 				3D5EC8C81994C3C100AF9947 /* ZZGridTableFlowLayout.m */,
 				3D5EC8CA1994C4F100AF9947 /* ZZGridTableCell.h */,
 				3D5EC8CB1994C4F100AF9947 /* ZZGridTableCell.m */,
-				3D5EC8CD1994CBAB00AF9947 /* ZZGridTableConllectionView.h */,
-				3D5EC8CE1994CBAB00AF9947 /* ZZGridTableConllectionView.m */,
 				3D639533199088860059E33B /* Supporting Files */,
 			);
 			path = tableEngineTest;
@@ -266,7 +261,6 @@
 				3D5EC8CC1994C4F100AF9947 /* ZZGridTableCell.m in Sources */,
 				3D5EC8D31994D83E00AF9947 /* GridTableTestViewController.m in Sources */,
 				3D5EC8C91994C3C100AF9947 /* ZZGridTableFlowLayout.m in Sources */,
-				3D5EC8CF1994CBAB00AF9947 /* ZZGridTableConllectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
