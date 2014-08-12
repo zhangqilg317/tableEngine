@@ -8,7 +8,7 @@
 
 #import "GridTableTestViewController.h"
 
-#import "ZZGridTableFlowLayout.h"
+//#import "ZZGridTableFlowLayout.h"
 
 
 #define TABLE_COLUMNS       ([_tasksArr count]+1)
@@ -62,7 +62,7 @@
     [self.view addSubview:_bgScrollView];
     
     
-    _gridTableCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0,FIRST_COLUMN_WIDTH+[_tasksArr count]*OTHER_COLUMN_WIDTH , 768-66) collectionViewLayout:[ZZGridTableFlowLayout new]];
+    _gridTableCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0,FIRST_COLUMN_WIDTH+[_tasksArr count]*OTHER_COLUMN_WIDTH , 768-66) collectionViewLayout:[UICollectionViewFlowLayout new]];
     _gridTableCollectionView.delegate = self;
     _gridTableCollectionView.dataSource = self;
     [self.bgScrollView addSubview:_gridTableCollectionView];
